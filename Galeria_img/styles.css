@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000500;
+    margin-top: 20px;
+}
+
+.galeria {
+    width: 100%;
+
+}
+
+.galeria img {
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    opacity: 0.5;
+    border: 1px solid #484848;
+}
+/* se le da estilo de luz en la imagen opaca al pasar el mouse
+sobre la imagen*/
+.galeria img:hover{
+    border: 1px solid #fff;
+    opacity: 1;
+}
